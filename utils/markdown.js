@@ -48,8 +48,7 @@ This project is licensed under ${answers.license}.
 
 ### Questions
     
-If you have any questions, please [email me.](mailto:$(${answers.email})).
-    
+If you have any questions, please [email me.](mailto:$(${answers.email}))
 *If you'd like to see more of my work, feel free to check out [my github!](github.com/${answers.username})*
 
 **©${year} ${answers.fullname}**

@@ -36,8 +36,7 @@ This project is licensed under MIT.
 
 ### Questions
     
-If you have any questions, please [email me.](mailto:$(aiden.threadgoode@gmail.com)).
-    
+If you have any questions, please [email me.](mailto:$(aiden.threadgoode@gmail.com))
 *If you'd like to see more of my work, feel free to check out [my github!](github.com/a-thread)*
 
 **©2020 Aiden Threadgoode**
