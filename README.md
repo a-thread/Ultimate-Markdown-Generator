@@ -4,12 +4,12 @@
 
 ![image of prompts in console](./assets/images/prompt-image.png)
     
-### Description
+## Description
 This is a command-line application that generates an organized and professional markdown. Using prompts in the terminal, the **Ultimate Markdown Generator** creates a README with user input that includes sections for a description, table of Contents, installation, usage guidelines, license, contributing, Installation, Usage, License, Contributing, Tests, and Questions.
 
 ***
 
-#### Table of Contents
+### Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -31,7 +31,8 @@ This is a command-line application that generates an organized and professional 
 In your command line, type ```node index``` and follow the prompts to generate the ULTIMATE markdown within moments.
 
 ### Demo
-To see a video of this application in action, [click here!](https://youtu.be/xo_RGbA3Kt4)
+![Gif illustrating application in action](./assets/images/README-demo.gif)
+***To see a full video of this application in action, [click here!](https://youtu.be/xo_RGbA3Kt4)***
     
 ### Contributing
 If you'd like to contribute to this application, feel free to [email me.](mailto:aiden.threadgoode@gmail.com)
