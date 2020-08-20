@@ -19,10 +19,12 @@ function mdFunction(answers) {
 # ${answers.title}
 ${answers.badge}
     
-## Description
+### Description
 ${answers.description}
 
-### Table of Contents
+---
+
+#### Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -30,6 +32,8 @@ ${answers.description}
 - [Tests](#tests)
 - [License](#license)
 - [Questions](#questions)
+
+---
 
 ### Installation
 ${answers.installation}
@@ -43,15 +47,15 @@ ${answers.contributing}
 ### Tests
 ${answers.tests}
     
-### License
+#### License
 This project is licensed under ${answers.license}. 
 
-### Questions
+#### Questions
     
 If you have any questions, please [email me.](mailto:${answers.email})
-*If you'd like to see more of my work, feel free to check out [my github!](github.com/${answers.username})*
+If you'd like to see more of my work, feel free to check out [my github!](github.com/${answers.username})
 
-**©${year} ${answers.fullname}**
+*©${year} ${answers.fullname}*
     `
 }
 

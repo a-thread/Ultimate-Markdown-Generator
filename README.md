@@ -1,11 +1,15 @@
 
 # Ultimate Markdown Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-    
-## Description
-A command-line application that generates an organized and professional markdown. Using prompts in the terminal, the **Ultimate Markdown Generator** creates a README with user input that includes sections for a description, table of Contents, installation, usage guidelines, license, contributing, Installation, Usage, License, Contributing, Tests, and Questions.
 
-### Table of Contents
+![image of prompts in console](./assets/images/prompt-image.png)
+    
+### Description
+This is a command-line application that generates an organized and professional markdown. Using prompts in the terminal, the **Ultimate Markdown Generator** creates a README with user input that includes sections for a description, table of Contents, installation, usage guidelines, license, contributing, Installation, Usage, License, Contributing, Tests, and Questions.
+
+***
+
+##### Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,19 +19,19 @@ A command-line application that generates an organized and professional markdown
 - [License](#license)
 - [Questions](#questions)
 
+***
+
 ### Installation
-1. clone repository
-2. run:
-    ```
-    npm install
-    npm install moment
-    ```
+**1.** Clone repository
+**2.** In the command line, type:
+  >  ```npm install ```
+  >  ```npm install moment```
 
 ### Usage
-In your terminal, run:```node index``` and follow the prompts to generate the ULTIMATE markdown within moments.
+In your command line, type ```node index``` and follow the prompts to generate the ULTIMATE markdown within moments.
 
 ### Demo
-![video of application in terminal](https://drive.google.com/file/d/1LbFcb70h6LjG05SdaWrGM1ksdmJzOy7U/view)
+To see a video of this application in action, [click here!](https://youtu.be/xo_RGbA3Kt4)
     
 ### Contributing
 If you'd like to contribute to this application, feel free to [email me.](mailto:aiden.threadgoode@gmail.com)
@@ -35,13 +39,13 @@ If you'd like to contribute to this application, feel free to [email me.](mailto
 ### Tests
 
     
-### License
-This project is licensed under MIT. 
+#### License
+This project is licensed under MIT.
 
-### Questions
+#### Questions
     
 If you have any questions, please [email me.](mailto:aiden.threadgoode@gmail.com)
-*If you'd like to see more of my work, feel free to check out [my github!](github.com/a-thread)*
+If you'd like to see more of my work, feel free to check out [my github!](github.com/a-thread)
 
-**©2020 Aiden Threadgoode**
+*© 2020 Aiden Threadgoode*
     

@@ -4,8 +4,8 @@ const fs = require("fs");
 const util = require("util");
 
 // requiring questions array & markdown function
-const generateMarkdown = require("./utils/markdown");
-let mdQuestions = require("./utils/questions");
+const generateMarkdown = require("./assets/utils/markdown");
+let mdQuestions = require("./assets/utils/questions");
 
 // capturing array in index file
 let questionsArr = mdQuestions.questions;
@@ -38,7 +38,7 @@ async function init() {
         var mdTitle = (answers.title).replace(/\s+/g, '-').toLowerCase();
 
         // wait til the prompts are finished before writing file
-        await writeToFile(`./new-markdown/${mdTitle}.md`, README);
+        await writeToFile(`./assets/new-markdown/${mdTitle}.md`, README);
 
         // letting user know the file has been successfully written
         console.log("Successfully generated your Ultimate README! You will find it in the new-markdown folder");

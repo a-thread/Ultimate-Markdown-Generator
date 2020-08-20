@@ -33,7 +33,12 @@ exports.questions = [
     { // project usage
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples for use."
+        message: "Provide instructions for use."
+    },
+    { // tests for application
+        type: "input",
+        name: "tests",
+        message: "What commands will the user use to test your application?"
     },
     { // contribution guidelines
         type: "input",
@@ -49,10 +54,5 @@ exports.questions = [
             'Apache 2.0',
             'GPL v3.0'
         ]   
-    },
-    { // tests for application
-        type: "input",
-        name: "tests",
-        message: "What commands will the user use to test your application?"
     }
 ];
