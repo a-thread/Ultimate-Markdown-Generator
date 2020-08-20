@@ -1,4 +1,4 @@
-function generateMD(answers) {
+function mdFunction(answers) {
     // set url for license
     switch (answers.license) {
         case "MIT":
@@ -50,3 +50,5 @@ function generateMD(answers) {
     *If you'd like to see more of my work, please check out [my github!](github.com/${answers.username})*
     `
 }
+
+module.exports = mdFunction;

@@ -2,71 +2,13 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const markdown = require("./utils/markdown")
+const generateMarkdown = require("./utils/markdown")
+const mdQuestions = require("./utils/questions")
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-// Questions to propogate markdown
-const questions = [
-    { // user full name
-        type: "input",
-        name: "full-name",
-        messgage: "What is your first and last name?"
-    },
-    { // username
-        type: "input",
-        name: "username",
-        message: "What is your github username?"
-    },
-    { // email
-        type: "input",
-        name: "title",
-        message: "Your email address?"
-    },
-    { // project title
-        type: "input",
-        name: "title",
-        message: "The title of your project?"
-    },
-    { // project description
-        type: "input",
-        name: "description",
-        message: "Provide a short description."
-    },
-    { // installation instructions
-        type: "input",
-        name: "installation",
-        message: "What commands will the user use to install it?"
-    },
-    { // project usage
-        type: "input",
-        name: "usage",
-        message: "Any usage information?"
-    },
-    { // contribution guidelines
-        type: "input",
-        name: "Contributing",
-        message: "Any contribution guidelines?"
-    },
-    { // project license
-        type: "list",
-        name: "license",
-        message: "Which license would you prefer?",
-        choices: [
-            'MIT',
-            'Apache 2.0',
-            'GNU v3.0'
-        ]
-    },
-    { // tests for application
-        type: "input",
-        name: "tests",
-        message: "What commands will the user use to test your application?"
-    }
-];
-
 function prompUser() {
-    return inquirer.prompt(questions);
+    return inquirer.prompt(mdQuestions);
 }
 
 
@@ -81,9 +23,9 @@ async function init() {
     try {
         const answers = await prompUser();
 
-        const README = markdown.push(answers);
+        const README = generateMarkdown(answers);
 
-        await writeToFile("./markdown/README.md", README);
+        await writeToFile("./new-markdown/README.md", README);
 
         console.log("Successfully generated Ultimate README! You will find it in the READMEs folder");
     } catch (err) {
