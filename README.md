@@ -9,6 +9,7 @@ A command-line application that generates an organized and professional markdown
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [License](#license)
@@ -24,6 +25,9 @@ A command-line application that generates an organized and professional markdown
 
 ### Usage
 In your terminal, run:```node index``` and follow the prompts to generate the ULTIMATE markdown within moments.
+
+### Demo
+![video of application in terminal]()
     
 ### Contributing
 If you'd like to contribute to this application, feel free to [email me.](mailto:aiden.threadgoode@gmail.com)
