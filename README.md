@@ -32,7 +32,7 @@ In your command line, type ```node index``` and follow the prompts to generate t
 
 ### Demo
 ![Gif illustrating application in action](./assets/images/README-demo.gif)
-***To see a full video of this application in action, [click here!](https://youtu.be/xo_RGbA3Kt4)***
+***To see a full video of this application in action, [click here!](https://youtu.be/4LwsgW0qiF0)***
     
 ### Contributing
 If you'd like to contribute to this application, feel free to [email me.](mailto:aiden.threadgoode@gmail.com)
@@ -41,7 +41,6 @@ If you'd like to contribute to this application, feel free to [email me.](mailto
 This project is licensed under MIT.
 
 ### Questions
-    
 If you have any questions, please [email me.](mailto:aiden.threadgoode@gmail.com)
 If you'd like to see more of my work, feel free to check out [my github!](github.com/a-thread)
 

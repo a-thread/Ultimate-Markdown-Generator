@@ -1,9 +1,9 @@
 
 # Project Title
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
     
 ### Description
-This is a short description.
+Here is a short description
 
 ---
 
@@ -19,19 +19,19 @@ This is a short description.
 ---
 
 ### Installation
-Here are the steps required for install.
+Here are some steps for install. Here is some ```code.```
 
 ### Usage
-Some instructions for use.
+Here are some instructions for use.
     
 ### Contributing
-Contribution guidelines.
+Here is how to contribute.
     
 ### Tests
-Here are some ```commands```
+Here are some ```commands``` to test the application.
     
 #### License
-This project is licensed under MIT. 
+This project is licensed under GPL v3.0. 
 
 #### Questions
     
