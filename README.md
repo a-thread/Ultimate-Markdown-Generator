@@ -9,7 +9,7 @@ This is a command-line application that generates an organized and professional 
 
 ***
 
-##### Table of Contents
+#### Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -36,13 +36,10 @@ To see a video of this application in action, [click here!](https://youtu.be/xo_
 ### Contributing
 If you'd like to contribute to this application, feel free to [email me.](mailto:aiden.threadgoode@gmail.com)
     
-### Tests
-
-    
-#### License
+### License
 This project is licensed under MIT.
 
-#### Questions
+### Questions
     
 If you have any questions, please [email me.](mailto:aiden.threadgoode@gmail.com)
 If you'd like to see more of my work, feel free to check out [my github!](github.com/a-thread)
