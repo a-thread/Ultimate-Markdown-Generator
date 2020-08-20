@@ -16,44 +16,44 @@ function mdFunction(answers) {
     }
 
     return `
-    # ${answers.title}
-    ${answers.badge}
+# ${answers.title}
+${answers.badge}
     
-    ## Description
-    ${answers.description}
+## Description
+${answers.description}
 
-    ### Table of Contents
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [License](#license)
-    - [Questions](#questions)
+### Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
-    ### Installation
-    ''''
-    ${answers.installation}
-    ''''
+### Installation
+''''
+${answers.installation}
+''''
 
-    ### Usage
-    ${answers.usage}
+### Usage
+${answers.usage}
     
-    ### Contributing
-    ${answers.contributing}
+### Contributing
+${answers.contributing}
     
-    ### Tests
-    ${answers.tests}
+### Tests
+${answers.tests}
     
-    ### License
-    This project is licensed under ${answers.license}. 
+### License
+This project is licensed under ${answers.license}. 
 
-    ### Questions
+### Questions
     
-    If you have any questions, please [email me.](mailto:$(${answers.email})).
+If you have any questions, please [email me.](mailto:$(${answers.email})).
     
-    *If you'd like to see more of my work, feel free to check out [my github!](github.com/${answers.username})*
-    **©${year} ${answers.fullname}**
+*If you'd like to see more of my work, feel free to check out [my github!](github.com/${answers.username})*
+**©${year} ${answers.fullname}**
     `
 }
 
