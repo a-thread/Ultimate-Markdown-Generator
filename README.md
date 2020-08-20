@@ -25,9 +25,10 @@ This is a command-line application that generates an organized and professional 
 
 ### Installation
 **1.** Clone repository
+
 **2.** In the command line, type:
   >  ```npm install ```
-  
+  >
   >  ```npm install moment```
 
 ### Usage
