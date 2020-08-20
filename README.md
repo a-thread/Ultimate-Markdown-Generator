@@ -15,9 +15,12 @@ A command-line application that generates an organized and professional markdown
 - [Questions](#questions)
 
 ### Installation
-''''
-clone repository, run 'npm install' and 'npm install moment'
-''''
+1. clone repository
+2. run:
+```
+npm install
+npm install moment
+```
 
 ### Usage
 In your terminal, run 'node index' and follow the prompts to generate the ULTIMATE markdown within moments.
