@@ -32,9 +32,7 @@ ${answers.description}
 - [Questions](#questions)
 
 ### Installation
-''''
 ${answers.installation}
-''''
 
 ### Usage
 ${answers.usage}
