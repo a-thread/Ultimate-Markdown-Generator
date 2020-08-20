@@ -1,7 +1,10 @@
-// requiring inquirer, file system, and utilities
+// requiring inquirer, fs, util & moment
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+// const moment = require('moment');
+
+// const year = moment().format('yyyy');
 
 // requiring questions array & markdown function
 const generateMarkdown = require("./utils/markdown");
