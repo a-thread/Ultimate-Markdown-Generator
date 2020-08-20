@@ -1,4 +1,3 @@
-
     # Ultimate Markdown Generator
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
@@ -37,4 +36,3 @@
     
     *If you'd like to see more of my work, feel free to check out [my github!](github.com/a-thread)*
     **©2020 Aiden Threadgooode**
-    
