@@ -2,9 +2,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const moment = require('moment');
-
-const year = moment().format('yyyy');
 
 // requiring questions array & markdown function
 const generateMarkdown = require("./utils/markdown");
@@ -44,7 +41,7 @@ async function init() {
         await writeToFile(`./new-markdown/README_${mdTitle}.md`, README);
 
         // letting user know the file has been successfully written
-        console.log("Successfully generated Ultimate README! You will find it in the new-markdown folder");
+        console.log("Successfully generated your Ultimate README! You will find it in the new-markdown folder");
     } catch (err) {
         console.log(err);
     }
