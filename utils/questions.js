@@ -47,7 +47,7 @@ exports.questions = [
         choices: [
             'MIT',
             'Apache 2.0',
-            'GNU v3.0'
+            'GPL v3.0'
         ]   
     },
     { // tests for application
