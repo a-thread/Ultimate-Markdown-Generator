@@ -37,7 +37,7 @@ In your command line, type ```node index``` and follow the prompts to generate t
 
 ### Demo
 
-![Gif illustrating application in action](./assets/images/README-demo.gif)
+<img src="./assets/images/README-demo.gif" title="Gif illustrating application in action" width="100%">
 
 ***To see a full video of this application in action, [click here!](https://youtu.be/4LwsgW0qiF0)***
     
