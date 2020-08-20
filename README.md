@@ -1,6 +1,6 @@
 
 # Ultimate Markdown Generator
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
     
 ## Description
 A command-line application that generates an organized and professional markdown which includes a Description, Table of Contents, Installation, Usage, License, Contributiallation, Usage, License, Contributing, Tests, and Questions.
