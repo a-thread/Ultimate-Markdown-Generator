@@ -38,7 +38,7 @@ async function init() {
         var mdTitle = (answers.title).replace(/\s+/g, '-').toLowerCase();
 
         // wait til the prompts are finished before writing file
-        await writeToFile(`./new-markdown/README_${mdTitle}.md`, README);
+        await writeToFile(`./new-markdown/${mdTitle}.md`, README);
 
         // letting user know the file has been successfully written
         console.log("Successfully generated your Ultimate README! You will find it in the new-markdown folder");
