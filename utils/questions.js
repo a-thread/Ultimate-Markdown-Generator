@@ -37,7 +37,7 @@ exports.questions = [
     },
     { // contribution guidelines
         type: "input",
-        name: "Contributing",
+        name: "contributing",
         message: "Describe any contribution guidelines."
     },
     { // project license
