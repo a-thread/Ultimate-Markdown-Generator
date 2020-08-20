@@ -9,31 +9,22 @@ A command-line application that generates an organized and professional markdown
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Demo](#demo)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [License](#license)
 - [Questions](#questions)
 
 ### Installation
-1. clone repository
-2. run:
-    ```
-    npm install
-    npm install moment
-    ```
+clone repository, run '''npm install''' and '''npm install moment'''
 
 ### Usage
-In your terminal, run:```node index``` and follow the prompts to generate the ULTIMATE markdown within moments.
-
-### Demo
-![video of application in terminal](https://drive.google.com/file/d/1LbFcb70h6LjG05SdaWrGM1ksdmJzOy7U/view)
+open terminal and run ''' node index ''' and answer prompts in terminal to generate your ultimate markdown.
     
 ### Contributing
-If you'd like to contribute to this application, feel free to [email me.](mailto:aiden.threadgoode@gmail.com)
+If you would like to contribute to this project, see 'Questions' section for contact information.
     
 ### Tests
-
+none yet!
     
 ### License
 This project is licensed under MIT. 
