@@ -28,17 +28,17 @@ exports.questions = [
     { // installation instructions
         type: "input",
         name: "installation",
-        message: "What commands will the user use to install it?"
+        message: "What are the steps required to install your project?"
     },
     { // project usage
         type: "input",
         name: "usage",
-        message: "Any usage information?"
+        message: "Provide instructions and examples for use."
     },
     { // contribution guidelines
         type: "input",
         name: "Contributing",
-        message: "Any contribution guidelines?"
+        message: "Describe any contribution guidelines."
     },
     { // project license
         type: "list",
@@ -48,7 +48,7 @@ exports.questions = [
             'MIT',
             'Apache 2.0',
             'GNU v3.0'
-        ]
+        ]   
     },
     { // tests for application
         type: "input",

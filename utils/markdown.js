@@ -1,5 +1,5 @@
 function mdFunction(answers) {
-    // set url for license
+    // setting url for licenses
     switch (answers.license) {
         case "MIT":
             answers.licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
@@ -8,7 +8,7 @@ function mdFunction(answers) {
             answers.licenseBadge = "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
             break;
         case "GNU v3.0":
-            answers.licenseBadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+            answers.licenseBadge = "[![License: GPL v3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
             break;
     }
 
@@ -29,7 +29,9 @@ function mdFunction(answers) {
     - [Questions](#questions)
 
     ### Installation
+    ```
     ${answers.installation}
+    ```
 
     ### Usage
     ${answers.usage}
@@ -45,9 +47,9 @@ function mdFunction(answers) {
 
     ### Questions
     
-    If you have any questions, feel free to [email me](mailto:$(${answers.email})).
+    If you have any questions, please [email me.](mailto:$(${answers.email})).
     
-    *If you'd like to see more of my work, please check out [my github!](github.com/${answers.username})*
+    *If you'd like to see more of my work, feel free to check out [my github!](github.com/${answers.username})*
     `
 }
 
