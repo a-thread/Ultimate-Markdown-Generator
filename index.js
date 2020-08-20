@@ -10,29 +10,38 @@ let mdQuestions = require("./utils/questions");
 // capturing array in index file
 let questionsArr = mdQuestions.questions;
 
+// writing the file asynchronously and appending it
 const writeFileAsync = util.promisify(fs.appendFile);
 
+// function prompting user to answer questions in array
 function prompUser() {
     return inquirer.prompt(questionsArr);
 }
 
-
-// function to write README file
+// function to write README
 function writeToFile(fileName, data) {
     return writeFileAsync(fileName, data);
 }
 
-// function to initialize program
+// function to initialize asynchronously
 async function init() {
+    // welcoming user
     console.log("Hi there! Welcome to Aiden's Ultimate README Generator. Please follow the prompts to make your own ultimate README.")
     try {
+        // calling prompUser function & capturing answers
         const answers = await prompUser();
 
+        // calling generateMarkdown to make README with answers
         const README = generateMarkdown(answers);
 
-        await writeToFile(`./new-markdown/README_${answers.username}.md`, README);
+        // capturing project title for file name and generating unique file name
+        var mdTitle = (answers.title).replace(/\s+/g, '-').toLowerCase();
 
-        console.log("Successfully generated Ultimate README! You will find it in the READMEs folder");
+        // wait til the prompts are finished before writing file
+        await writeToFile(`./new-markdown/README_${mdTitle}.md`, README);
+
+        // letting user know the file has been successfully written
+        console.log("Successfully generated Ultimate README! You will find it in the new-markdown folder");
     } catch (err) {
         console.log(err);
     }
