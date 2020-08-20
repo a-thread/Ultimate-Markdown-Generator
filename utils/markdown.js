@@ -29,9 +29,9 @@ function mdFunction(answers) {
     - [Questions](#questions)
 
     ### Installation
-    ```
+    ''''
     ${answers.installation}
-    ```
+    ''''
 
     ### Usage
     ${answers.usage}
