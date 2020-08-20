@@ -1,9 +1,9 @@
 // Questions to propogate markdown
-const questions = [
+exports.questions = [
     { // user full name
         type: "input",
         name: "fullname",
-        messgage: "What is your first and last name?"
+        message: "What is your first and last name?"
     },
     { // username
         type: "input",
@@ -56,5 +56,3 @@ const questions = [
         message: "What commands will the user use to test your application?"
     }
 ];
-
-module.exports = questions;

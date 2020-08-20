@@ -1,14 +1,19 @@
-// requiring the following modules
+// requiring inquirer, file system, and utilities
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const generateMarkdown = require("./utils/markdown")
-const mdQuestions = require("./utils/questions")
 
-const writeFileAsync = util.promisify(fs.writeFile);
+// requiring questions array & markdown function
+const generateMarkdown = require("./utils/markdown");
+let mdQuestions = require("./utils/questions");
+
+// capturing array in index file
+let questionsArr = mdQuestions.questions;
+
+const writeFileAsync = util.promisify(fs.appendFile);
 
 function prompUser() {
-    return inquirer.prompt(mdQuestions);
+    return inquirer.prompt(questionsArr);
 }
 
 
@@ -25,7 +30,7 @@ async function init() {
 
         const README = generateMarkdown(answers);
 
-        await writeToFile("./new-markdown/README.md", README);
+        await writeToFile(`./new-markdown/README_${answers.username}.md`, README);
 
         console.log("Successfully generated Ultimate README! You will find it in the READMEs folder");
     } catch (err) {
