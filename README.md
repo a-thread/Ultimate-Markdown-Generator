@@ -2,7 +2,7 @@
 # Ultimate Markdown Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-![image of prompts in console](./assets/images/prompt-image.png)
+![image of prompts in console](./assets/images/demo.png)
     
 ## Description
 
