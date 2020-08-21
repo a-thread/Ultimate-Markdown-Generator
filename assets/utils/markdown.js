@@ -1,22 +1,13 @@
+// using moment to get current date
 const moment = require('moment');
-const year = moment().format('yyyy');
+const year = moment().format('yyyy'); // using year to generate copyright
+const chooseLicense = require('./badges'); // using license.js to get badge url
 
+// function to generate markdown
 function mdFunction(answers) {
-    // setting url for licenses
-    switch (answers.license) {
-        case "MIT":
-            answers.badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
-            break;
-        case "Apache 2.0":
-            answers.badge = "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-            break;
-        case "GPL v3.0":
-            answers.badge = "[![License: GPL v3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
-            break;
-    }
-
+    chooseLicense(answers)
     return `
-# ${answers.title}
+# ${answers.title} 
 ${answers.badge}
     
 ### Description
@@ -59,4 +50,4 @@ If you'd like to see more of my work, feel free to check out [my github!](https:
     `
 }
 
-module.exports = mdFunction;
+module.exports = mdFunction; // exporting function

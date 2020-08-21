@@ -3,12 +3,12 @@ exports.questions = [
     { // user full name
         type: "input",
         name: "fullname",
-        message: "What is your first and last name?"
+        message: "What is your full name?"
     },
     { // username
         type: "input",
         name: "username",
-        message: "What is your github username?"
+        message: "Your github username?"
     },
     { // email
         type: "input",

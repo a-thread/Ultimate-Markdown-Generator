@@ -4,7 +4,7 @@ const fs = require("fs");
 const util = require("util");
 
 // requiring questions array & markdown function
-const generateMarkdown = require("./assets/utils/markdown");
+const generateMD = require("./assets/utils/markdown");
 let mdQuestions = require("./assets/utils/questions");
 
 // capturing array in index file
@@ -26,13 +26,13 @@ function writeToFile(fileName, data) {
 // function to initialize asynchronously
 async function init() {
     // welcoming user
-    console.log("Hi there! Welcome to Aiden's Ultimate README Generator. Please follow the prompts to make your own ultimate README.")
+    console.log("Hi there! Welcome to Aiden's Ultimate Markdown Generator. Please follow the prompts to make your own ultimate README.")
     try {
         // calling prompUser function & capturing answers
         const answers = await prompUser();
 
         // calling generateMarkdown to make README with answers
-        const README = generateMarkdown(answers);
+        const README = generateMD(answers);
 
         // capturing project title for file name and generating unique file name
         var mdTitle = (answers.title).replace(/\s+/g, '-').toLowerCase();
