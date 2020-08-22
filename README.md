@@ -33,10 +33,12 @@ SO THAT can quickly create a professional README for a new project
 ```
 
 ### Installation
+
 **1.** Clone repository
 
 **2.** In the command line, type:
   >  ```npm install ```
+  >
   >  ```npm install moment```
 
 ### Usage
