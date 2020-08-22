@@ -6,29 +6,37 @@
     
 ## Description
 
-This is a command-line application that generates an organized and professional markdown. Using prompts in the terminal, the **Ultimate Markdown Generator** creates a README with user input that includes sections for a description, table of Contents, installation, usage guidelines, license, contributing, Installation, Usage, License, Contributing, Tests, and Questions.
+This is a command-line application that generates an organized and professional markdown. Using prompts in the terminal, the **Ultimate Markdown Generator** creates a README from user input that includes a title, as well as sections for a description, table of contents, installation, usage, technologies used, tests, contributing, and questions.
 
 ***
 
-### Table of Contents
+#### Table of Contents
 
 - [Description](#description)
+- [User Story](#user)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Demo](#demo)
+- [Tech Used](#tech)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [License](#license)
 - [Questions](#questions)
 
 ***
+
+### User Story
+
+```
+AS A developer
+I WANT a README generator
+SO THAT can quickly create a professional README for a new project
+```
 
 ### Installation
 **1.** Clone repository
 
 **2.** In the command line, type:
   >  ```npm install ```
-  >
   >  ```npm install moment```
 
 ### Usage
@@ -37,13 +45,13 @@ In your command line, type ```node index``` and follow the prompts to generate t
 
 ### Demo
 
-<img src="./assets/images/README-demo.gif" title="Gif illustrating application in action" width="100%">
+<img src="./assets/images/demo.gif" title="Gif illustrating application in action" width="100%">
 
 ***To see a full video of this application in action, [click here!](https://youtu.be/4LwsgW0qiF0)***
     
 ### Contributing
 
-If you'd like to contribute to this application, feel free to [email me.](mailto:aiden.threadgoode@gmail.com)
+If you'd like to contribute to this application, feel free to submit a pull request!
     
 ### License
 

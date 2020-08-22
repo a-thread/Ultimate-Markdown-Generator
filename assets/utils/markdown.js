@@ -19,9 +19,10 @@ ${answers.description}
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Tests](#tests)
+- [Technologies Used](#technologies)
 - [License](#license)
+- [Contributing](#contributing)
 - [Questions](#questions)
 
 ---
@@ -31,17 +32,20 @@ ${answers.installation}
 
 ### Usage
 ${answers.usage}
-    
-### Contributing
-${answers.contributing}
-    
+
 ### Tests
 ${answers.tests}
-    
-#### License
+
+### Technologies Used
+${answers.tech}
+
+### License
 This project is licensed under ${answers.license}. 
 
-#### Questions
+### Contributing
+${answers.contributing}
+
+### Questions
     
 If you have any questions, please [email me.](mailto:${answers.email})
 If you'd like to see more of my work, feel free to check out [my github!](https://github.com/${answers.username})
