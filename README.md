@@ -17,7 +17,7 @@ This is a command-line application that generates an organized and professional 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Demo](#demo)
-- [Tech Used](#tech)
+- [Technologies Used](#tech)
 - [Contributing](#contributing)
 - [License](#license)
 - [Questions](#questions)
@@ -50,6 +50,10 @@ In your command line, type ```node index``` and follow the prompts to generate t
 <img src="./assets/images/demo.gif" title="Gif illustrating application in action" width="100%">
 
 ***To see a full video of this application in action, [click here!](https://youtu.be/4LwsgW0qiF0)***
+
+### Technologies Used
+- Javascript
+- Node.js
     
 ### Contributing
 
