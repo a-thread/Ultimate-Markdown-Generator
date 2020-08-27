@@ -34,7 +34,7 @@ exports.questions = [
         type: "input",
         name: "installation",
         message: "What are the steps required to install your project?",
-        default: "Install steps with ``` some code ``` goes here."
+        default: "Install steps with ``` code ``` go here."
     },
     { // project usage
         type: "input",
