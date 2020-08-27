@@ -34,16 +34,16 @@ SO THAT can quickly create a professional README for a new project
 
 ### Installation
 
-**1.** Clone repository
+**1.** Fork repository
 
-**2.** In the command line, type:
+**2.** In the command line, run:
   >  ```npm install ```
   >
   >  ```npm install moment```
 
 ### Usage
 
-In your command line, type ```node index``` and follow the prompts to generate the ULTIMATE markdown within moments.
+In your command line, run ```node index``` and follow the prompts to generate the ULTIMATE markdown within moments.
 
 ### Demo
 
