@@ -24,6 +24,23 @@ exports.questions = [
         message: "The title of your project?",
         default: "Project Title"
     },
+    { // link to deployed project
+        type: "input",
+        name: "link",
+        message: "If your project is deployed, please provide a link here.",
+        default: "link to come!"
+    },
+    { // image source
+        type: "input",
+        name: "src",
+        message: "Please type the path to your demo image, excluding quotes.",
+        default: "./assets/images/demo.png"
+    },
+    { // image source
+        type: "input",
+        name: "alt",
+        message: "Please provide an alt description of the image."
+    },
     { // project description
         type: "input",
         name: "description",
