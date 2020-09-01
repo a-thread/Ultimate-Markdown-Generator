@@ -1,8 +1,12 @@
 
 # Project Title 
-[![License: GPL v3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+[Project Title](link to come!)
+
+[](./assets/images/demo.png)
     
-### Description
+## Description
 Here is where my description will go.
 
 ---
@@ -12,6 +16,7 @@ Here is where my description will go.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
+- [Demo](#demo)
 - [Technologies Used](#technologies)
 - [License](#license)
 - [Contributing](#contributing)
@@ -20,7 +25,7 @@ Here is where my description will go.
 ---
 
 ### Installation
-Install steps with ``` some code ``` goes here.
+Install steps with ``` code ``` go here.
 
 ### Usage
 Here are your instructions for use.
@@ -28,11 +33,14 @@ Here are your instructions for use.
 ### Tests
 N/A
 
+### Demo 
+*Demo to come!*
+
 ### Technologies Used
 Technologies to be filled in later.
 
 ### License
-This project is licensed under GPL v3.0. 
+This project is licensed under MIT. 
 
 ### Contributing
 If you'd like to contribute to this application, feel free to submit a pull request.

@@ -9,8 +9,12 @@ function mdFunction(answers) {
     return `
 # ${answers.title} 
 ${answers.badge}
+
+[${answers.title}](${answers.link})
+
+[${answers.alt}](${answers.src})
     
-### Description
+## Description
 ${answers.description}
 
 ---
@@ -20,6 +24,7 @@ ${answers.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
+- [Demo](#demo)
 - [Technologies Used](#technologies)
 - [License](#license)
 - [Contributing](#contributing)
@@ -36,16 +41,19 @@ ${answers.usage}
 ### Tests
 ${answers.tests}
 
-### Technologies Used
-${answers.tech}
+### Demo 
+*Demo to come!*
 
-### License
+### Technologies Used
+- ${answers.tech}
+
+#### License
 This project is licensed under ${answers.license}. 
 
-### Contributing
+#### Contributing
 ${answers.contributing}
 
-### Questions
+#### Questions
     
 If you have any questions, please [email me.](mailto:${answers.email})
 If you'd like to see more of my work, feel free to check out [my github!](https://github.com/${answers.username})
