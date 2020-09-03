@@ -1,22 +1,22 @@
 // Questions to propogate markdown
-exports.questions = [
+const questionsArr = [
     { // user full name
         type: "input",
         name: "fullname",
         message: "What is your full name?",
-        default: "Firstname Lastname"
+        default: "Aiden Threadgoode"
     },
     { // username
         type: "input",
         name: "username",
         message: "Your github username?",
-        default: "user-name"
+        default: "a-thread"
     },
     { // email
         type: "input",
         name: "email",
         message: "Your email address?",
-        default: "email@address.com"
+        default: "aiden.threadgoode@gmail.com"
     },
     { // project title
         type: "input",
@@ -46,6 +46,12 @@ exports.questions = [
         name: "description",
         message: "Provide a short description.",
         default: "Here is where my description will go."
+    },
+    { // user story
+        type: "input",
+        name: "story",
+        message: "Provide a user story here!",
+        default: "AS A USER..."
     },
     { // installation instructions
         type: "input",
@@ -88,3 +94,5 @@ exports.questions = [
         ]   
     }
 ];
+
+exports.questionsArr = questionsArr;

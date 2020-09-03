@@ -59,11 +59,11 @@ In your command line, run ```node index``` and follow the prompts to generate th
 
 If you'd like to contribute to this application, feel free to submit a pull request!
     
-### License
+#### License
 
 This project is licensed under MIT.
 
-### Questions
+#### Questions
 
 If you have any questions, please [email me.](mailto:aiden.threadgoode@gmail.com)
 

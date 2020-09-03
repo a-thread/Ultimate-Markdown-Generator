@@ -13,6 +13,7 @@ Here is where my description will go.
 
 #### Table of Contents
 - [Description](#description)
+- [User Story](#user)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
@@ -23,6 +24,9 @@ Here is where my description will go.
 - [Questions](#questions)
 
 ---
+
+### User Story
+AS A USER...
 
 ### Installation
 Install steps with ``` code ``` go here.
@@ -37,18 +41,19 @@ N/A
 *Demo to come!*
 
 ### Technologies Used
-Technologies to be filled in later.
-
-### License
-This project is licensed under MIT. 
+- Technologies to be filled in later.
 
 ### Contributing
 If you'd like to contribute to this application, feel free to submit a pull request.
 
-### Questions
-    
-If you have any questions, please [email me.](mailto:email@address.com)
-If you'd like to see more of my work, feel free to check out [my github!](https://github.com/user-name)
+#### License
+This project is licensed under MIT. 
 
-*© 2020 Firstname Lastname*
+#### Questions
+    
+If you have any questions, please [email me.](mailto:aiden.threadgoode@gmail.com)
+
+If you'd like to see more of my work, feel free to check out [my github!](https://github.com/a-thread)
+
+*© 2020 Aiden Threadgoode*
     

@@ -21,6 +21,7 @@ ${answers.description}
 
 #### Table of Contents
 - [Description](#description)
+- [User Story](#user)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
@@ -31,6 +32,9 @@ ${answers.description}
 - [Questions](#questions)
 
 ---
+
+### User Story
+${answers.story}
 
 ### Installation
 ${answers.installation}
@@ -47,15 +51,16 @@ ${answers.tests}
 ### Technologies Used
 - ${answers.tech}
 
+### Contributing
+${answers.contributing}
+
 #### License
 This project is licensed under ${answers.license}. 
-
-#### Contributing
-${answers.contributing}
 
 #### Questions
     
 If you have any questions, please [email me.](mailto:${answers.email})
+
 If you'd like to see more of my work, feel free to check out [my github!](https://github.com/${answers.username})
 
 *© ${year} ${answers.fullname}*
