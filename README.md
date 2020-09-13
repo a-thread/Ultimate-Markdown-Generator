@@ -54,6 +54,8 @@ In your command line, run ```node index``` and follow the prompts to generate th
 ### Technologies Used
 - Javascript
 - Node.js
+- npm
+- InquirerJs
     
 ### Contributing
 
