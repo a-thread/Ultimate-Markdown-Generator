@@ -23,7 +23,16 @@ function writeToFile(fileName, data) {
 // function to initialize asynchronously
 async function init() {
     // welcoming user
-    console.log("Hi there! Welcome to Aiden's Ultimate Markdown Generator. Please follow the prompts to make your own ultimate README.")
+    console.log(`            `);
+    console.log(` -----------------------------------------------`);
+    console.log(` ===============================================`);
+    console.log(`            `);
+    console.log(`    Welcome to the ULTIMATE Markdown Generator`);
+    console.log(`            `);
+    console.log(` ===============================================`);
+    console.log(` Follow the prompts to create your own markdown!`);
+    console.log(` -----------------------------------------------`);
+    console.log(`            `);
     try {
         // calling prompUser function & capturing answers
         const answers = await promptUser();
