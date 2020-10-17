@@ -4,7 +4,7 @@
 
 [Personal Trainer](https://lets-workout.herokuapp.com/)
 
-[Stats Page of Application](./public/img/front-page.png)
+[Stats Page of Application](./public/img/stats.png)
     
 ## Description
 Here is where my description will go.
